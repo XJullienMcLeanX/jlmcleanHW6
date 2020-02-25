@@ -1,0 +1,130 @@
+/*
+ Filename: cssGrid.css
+ Written by: Jullien McLean (JLJM)
+ Purpose: Showing how to use css grids to structure a webpage (the css)
+ Date: 22 February, 2020
+ Modification History: 22 February, 2020
+ Original Build
+*/
+
+body {
+	background-color: black;
+	margin-left: 30%;
+	margin-right: 30%;
+	width: 40%;
+	height: 50%;
+}
+
+#main { 
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	background-color: white;
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+	grid-template-rows: 25px 100px 40px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 75px; 
+	grid-gap: 8px;
+	height: 100%;
+}
+
+#box1 {
+	background-color: #66b3ff;
+	grid-column-start: 1;
+	grid-column-end: 13;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+#box2 {
+	background-color: #A570DB;
+	grid-column-start: 1;
+	grid-column-end: 13;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+#box3 {
+	background-color: #006400;
+	grid-column-start: 1;
+	grid-column-end: 8;
+	grid-row-start: 3;
+	grid-row-end: 5;
+}
+
+
+#box4 {
+	background-color: #00478d;
+	grid-column-start: 8;
+	grid-column-end: 13;
+	grid-row-start: 3;
+	grid-row-end: 5;
+}
+
+#box5 {
+	background-color: #e59400;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 5;
+	grid-row-end: 8;
+}
+
+
+#box6 {
+	background-color: #008000;
+	grid-column-start: 5;
+	grid-column-end: 7;
+	grid-row-start: 5;
+	grid-row-end: 8;
+}
+
+#box7 {
+	background-color: #ff2500;
+	grid-column-start: 7;
+	grid-column-end: 13;
+	grid-row-start: 5;
+	grid-row-end: 8;
+}
+
+#box8 {
+	background-color: #ffeb33;
+	grid-column-start: 1;
+	grid-column-end: 7;
+	grid-row-start: 8;
+	grid-row-end: 17;
+}
+
+#box9 {
+	background-color: #40ff00;
+	grid-column-start: 7;
+	grid-column-end: 9;
+	grid-row-start: 8;
+	grid-row-end: 11;
+}
+
+#box10 {
+	background-color: #bfff00;
+	grid-column-start: 11;
+	grid-column-end: 13;
+	grid-row-start: 8;
+	grid-row-end: 11;
+}
+
+#box11 {
+	background-color: #00ffff;
+	grid-column-start: 7;
+	grid-column-end: 13;
+	grid-row-start: 11;
+	grid-row-end: 17;
+}
+
+#box12 {
+	background-color: #5900b3;
+	grid-column-start: 1;
+	grid-column-end: 13;
+	grid-row-start: 17;
+	grid-row-end: 18;
+}
+
+
+
